@@ -22,7 +22,7 @@ public class Exercicio16 {
         if (b <= 0 || h <= 0) {
             System.out.println("Erro. Você introduziu um número igual a 0 ou menor!");
         } else{
-            int area = (b*h)/2; //Dúvida aqui, porque tem que ser declarado aqui e não junto com as outras variáveis em cima?!!
+            int area = (b*h)/2; //Dúvida aqui, por que tem que ser declarado aqui e não junto com as outras variáveis em cima?!!
             System.out.println("A área do triângulo é: " + area);
         }
         sc.close();
